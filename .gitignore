@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+autoscaler
 
 # Test binary, built with `go test -c`
 *.test
@@ -28,5 +29,22 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Config (敏感配置不提交，只保留示例)
+config.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp
+tmp/
+temp/
